@@ -226,7 +226,7 @@ var app = new Vue({
             <b-col align="center" class="app_column">
                 <b-container>
                     <b-row class="p-2">
-                        <legend>Getting Started? Flash the Blink example!</legend>
+                        <legend>Getting Started?? Flash the Blink example!</legend>
                         <div><b-button variant="es" id="blink"  :disabled="no_device">Flash Blink!</b-button></div>
                     </b-row>
                     <hr>
@@ -318,7 +318,7 @@ var app = new Vue({
             // New code below:
             // Get Source list as data 
             var self = this // assign self to 'this' before nested function calls...
-            var src_url = getRootUrl().split("?")[0].concat("data/sources.json") //need to strip out query string
+            var src_url = getRootUrl().split("?")[0].replace("index.html", "").concat("data/sources.json") //need to strip out query string
             var raw = new XMLHttpRequest();
             raw.open("GET", src_url, true);
             raw.responseType = "text"
