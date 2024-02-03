@@ -1,21 +1,21 @@
 [
     {
         "name": "v1 - Work in progress",
-        "platform": "sibilla",
+        "platform": "field",
         "filepath": "./Sibilla_offset_calibration.bin",
         "description": "Offset Calibration",
         "url": "https://raw.githubusercontent.com/electro-smith/DaisyExamples/master/field/stringvoice/README.md"
     },
 	{
         "name": "v1.0 - Official release",
-        "platform": "sibilla",
+        "platform": "field",
         "filepath": "./Sibilla_v.1.0.bin",
         "description": "First stable version",
         "url": "https://raw.githubusercontent.com/electro-smith/DaisyExamples/master/field/stringvoice/README.md"
     },
 	{
         "name": "v1.2 - Official release",
-        "platform": "sibilla",
+        "platform": "field",
         "filepath": "./Sibilla_v.1.2_Clatters®_official_firmware.bin",
         "description": "More gain for all!",
         "url": "https://raw.githubusercontent.com/electro-smith/DaisyExamples/master/field/stringvoice/README.md"
