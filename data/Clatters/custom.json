@@ -1,0 +1,23 @@
+[
+    {
+        "name": "v1.2",
+        "platform": "sibilla",
+        "filepath": "./Sibilla_v.1.2_Clatters®_official_firmware.bin",
+        "description": "More gain for all!",
+        "url": "https://clattersmachines.com/Programmer/data/Clatters/Sibilla_v.1.2.md"
+    },
+    {
+        "name": "v1.1",
+        "platform": "sibilla",
+        "filepath": "./Sibilla_v.1.1_Clatters®_official_firmware.bin",
+        "description": "First fix",
+        "url": "https://clattersmachines.com/Programmer/data/Clatters/Sibilla_v.1.1.md"
+    },
+    {
+        "name": "v1.0",
+        "platform": "sibilla",
+        "filepath": "./Sibilla_v.1.0_Clatters®_official_firmware.bin",
+        "description": "Launch version",
+        "url": "https://clattersmachines.com/Programmer/data/Clatters/Sibilla_v.1.0.md"
+    }
+]
