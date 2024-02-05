@@ -168,10 +168,12 @@ var app = new Vue({
     </div>
     
     <b-row align="center" class="app_column app_column_top app_column_round_top">
-      <h2>Sibilla Web Programmer</h2>
+
+      <h2>Sibilla Web Programmer<b-button style="float:right;" variant="es" v-b-toggle.collapseHelp><i class="fa fa-question-circle" aria-hidden="true"></i></b-button></h2>
+
     </b-row>
 
-    <b-button style="position: fixed;right: 50px;" variant="es" v-b-toggle.collapseHelp><i class="fa fa-question-circle" aria-hidden="true"></i></b-button>
+
     <b-collapse id="collapseHelp" class="app_column app_column_top">
         <div class="nested_list">
             <h2>Setup and programming:</h2>
@@ -250,7 +252,7 @@ var app = new Vue({
             <legend>3. Program it!</legend>
             <b-button id="download" variant='es' :disabled="no_device || !sel_example"> Program</b-button>
 
-            <br> <br>
+
             <b-button variant="es" v-b-toggle.collapseAdvanced style="display:none;">Advanced...</b-button>
             <b-collapse id="collapseAdvanced">
                 <br> <div> <b-button variant="es" id="bootloader"  :disabled="no_device">Flash Bootloader Image</b-button> </div>                        
